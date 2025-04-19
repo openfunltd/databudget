@@ -18,7 +18,7 @@ class LYAPI
         if (getenv('LYAPI_HOST')) {
             $url = 'https://' . getenv('LYAPI_HOST') . $url;
         } else {
-            $url = 'https://v2.ly.govapi.tw' . $url;
+            $url = 'https://budget.govapi.tw' . $url;
         }
 
         $curl = curl_init();

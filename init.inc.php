@@ -11,6 +11,6 @@ set_include_path(
     . PATH_SEPARATOR . __DIR__ . '/models'
 );
 if (!getenv('LYAPI_HOST')) {
-    putenv('LYAPI_HOST=ly.govapi.tw/v2');
+    putenv('LYAPI_HOST=budget.govapi.tw');
 }
 MiniEngine::initEnv();

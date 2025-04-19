@@ -17,6 +17,24 @@ class TypeHelper
                 'item_features' => [
                 ],
             ],
+            'proposed_budget_project' => [
+                'name' => '預算案-工作計畫',
+                'icon' => 'fas fa-fw fa-calendar-day',
+                'cols' => [
+                    '單位代碼',
+                    '年度',
+                    '單位',
+                    '工作計畫編號',
+                    '工作計畫名稱',
+                ],
+                'default_aggs' => [
+                    '單位代碼',
+                    '年度',
+                    '單位',
+                ],
+                'item_features' => [
+                ],
+            ],
         ];
     }
 

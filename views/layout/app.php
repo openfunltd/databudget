@@ -29,7 +29,7 @@
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-landmark"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">立院統合資料網 Dataly</div>
+                <div class="sidebar-brand-text mx-3">預算統合資料網 DataBudget</div>
             </a>
 
             <!-- Divider -->
@@ -157,7 +157,7 @@
                         </div>
                     <div class="copyright text-center my-auto">
                         <span>
-                            <?= $this->escape(getenv('APP_NAME')) ?> 由 <a href="https://openfun.tw" target="_blank">歐噴有限公司</a> 開發，目的是是立法院資料更透明更容易被使用
+                            <?= $this->escape(getenv('APP_NAME')) ?> 由 <a href="https://openfun.tw" target="_blank">歐噴有限公司</a> 開發，目的是是預決算資料更透明更容易被使用
                         </span>
                     </div>
                 </div>

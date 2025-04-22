@@ -78,6 +78,69 @@ class TypeHelper
                 'item_features' => [
                 ],
             ],
+            'proposed_budget_income_by_source' => [
+                'name' => '預算案-歲入來源別預算表',
+                'icon' => 'fas fa-fw fa-calendar-day',
+                'cols' => [
+                    '單位代碼',
+                    '年度',
+                    '款',
+                    '項',
+                    '目',
+                    '節',
+                    '款名',
+                    '項名',
+                    '目名',
+                    '節名',
+                    '本年度預算數',
+                ],
+                'default_aggs' => [
+                    '單位代碼',
+                    '年度',
+                ],
+            ],
+            'proposed_budget_expenditure_by_agency' => [
+                'name' => '預算案-歲出機關別預算表',
+                'icon' => 'fas fa-fw fa-calendar-day',
+                'cols' => [
+                    '單位代碼',
+                    '年度',
+                    '款',
+                    '項',
+                    '目',
+                    '節',
+                    '款名',
+                    '項名',
+                    '目名',
+                    '節名',
+                    '本年度預算數',
+                ],
+                'default_aggs' => [
+                    '單位代碼',
+                    '年度',
+                ],
+            ],
+            'proposed_budget_expenditure_by_policy' => [
+                'name' => '預算案-歲出政事別預算表',
+                'icon' => 'fas fa-fw fa-calendar-day',
+                'cols' => [
+                    '單位代碼',
+                    '年度',
+                    '款',
+                    '項',
+                    '目',
+                    '節',
+                    '款名',
+                    '項名',
+                    '目名',
+                    '節名',
+                    '本年度預算數',
+                ],
+                'default_aggs' => [
+                    '單位代碼',
+                    '年度',
+                ],
+            ],
         ];
     }
 

@@ -163,6 +163,25 @@ class TypeHelper
                     '年度',
                 ],
             ],
+            'proposed_budget_expenditure_by_item' => [
+                'name' => '預算案-各項費用彙計表',
+                'icon' => 'fas fa-fw fa-calendar-day',
+                'cols' => [
+                    '單位代碼',
+                    '年度',
+                    '單位',
+                    '工作計畫編號',
+                    '工作計畫名稱',
+                    '第一級用途別科目編號',
+                    '第一級用途別科目名稱',
+                    '第二級用途別科目編號',
+                    '第二級用途別科目名稱',
+                ],
+                'default_aggs' => [
+                    '單位代碼',
+                    '年度',
+                ],
+            ],
         ];
     }
 
